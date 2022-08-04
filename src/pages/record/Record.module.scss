@@ -1,0 +1,132 @@
+.recordPage {
+    background: #2a353e;
+
+    ion-header {
+        background: #2a353e;
+
+        ion-toolbar {
+
+            ion-icon {
+                color: white;
+                font-size: 1.5rem;
+                border-radius: 50%;
+                padding: 5px;
+                background: #424a53;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+        }
+
+    }
+
+    ion-content {
+        .wrapperContent {
+            // max-width: 50rem;
+            width: 100%;
+            margin: 0 auto;
+
+            .tabBox {
+                position: relative;
+                margin: 1rem 0;
+                // background: #1abc9c;
+                display: flex;
+                justify-content: center;
+            }
+
+            .tabBox::before,
+            .tabBox::after {
+                content: "";
+                display: table;
+            }
+
+            .tabBox::after {
+                clear: both;
+            }
+
+            // .tabPart {
+            //     border-radius: 1rem;
+            // }
+
+            .tabSwitch {
+                display: none;
+            }
+
+            .tabLabel {
+                position: relative;
+                display: block;
+                padding: 10px 1rem;
+                font-size: 0.8rem;
+                background: #53616d;
+                color: #fff;
+                cursor: pointer;
+                top: 0;
+                transition: all 0.25s;
+                border-radius: 1rem;
+                margin: 0 5px;
+                border: 1px solid #5d5d5d;
+            }
+
+            .tabContent {
+                position: absolute;
+                z-index: 1;
+                top: 3.75em;
+                left: 0;
+                opacity: 0;
+                transition: all 0.35s;
+                width: 100%;
+
+                h2 {
+                    margin: 10px 0;
+                }
+
+                ion-card {
+                    background: #414d59;
+                    color: #cacaca;
+                    margin-bottom: 1rem;
+
+                    ion-row {
+                        margin: 10px 0;
+                    }
+
+                    .recordStatus {
+                        border-radius: 20px;
+                        background: #49c1fb;
+                        padding: 2px 10px;
+                        color: white;
+                    }
+
+
+                    .productInfo {
+
+                        ion-img {
+                            border-radius: 50%;
+                            overflow: hidden;
+                            width: 60px;
+                            height: 60px;
+                            background: white;
+                            padding: 5px;
+                        }
+                    }
+                }
+            }
+
+            .tabSwitch:checked+.tabLabel {
+                background: rgb(64, 78, 93);
+                background: radial-gradient(circle, rgba(64, 78, 93, 1) 36%, rgba(35, 41, 47, 1) 79%);
+                color: white;
+                font-weight: bold;
+                border-bottom: 0;
+                transition: all 0.35s;
+                z-index: 1;
+                top: -0.0625rem;
+            }
+
+            .tabSwitch:checked+label+.tabContent {
+                z-index: 2;
+                opacity: 1;
+                transition: all 0.35s;
+            }
+        }
+
+    }
+}

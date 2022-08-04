@@ -1,0 +1,19 @@
+.languageBox {
+    padding: 5px;
+    background-color: #00000069;
+    border-radius: 60px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+    &:hover,
+    &:active,
+    &:focus-visible {
+        background-color: #b6b6b669;
+    }
+
+    ion-img {
+        width: 40px;
+        height: 40px;
+        margin-right: 1rem;
+    }
+}

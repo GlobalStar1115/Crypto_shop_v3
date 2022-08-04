@@ -1,0 +1,104 @@
+.teamReportPage {
+    background: #2a353e;
+
+    ion-header {
+        ion-toolbar {
+            --padding-start: 1rem;
+            --padding-end: 1rem;
+
+            ion-button {
+                font-size: 20px;
+            }
+        }
+    }
+
+    ion-content {
+        .tabBox {
+            span {
+                border-radius: 12px;
+                background: #53616d;
+                color: #cacaca;
+                padding: 5px 12px;
+                margin: 0 2px;
+
+                &:active {
+                    color: white;
+                    background: rgb(64, 78, 93);
+                    background: radial-gradient(circle, rgba(64, 78, 93, 1) 36%, rgba(35, 41, 47, 1) 79%);
+                }
+            }
+
+        }
+
+        .diplayRange {
+            background: #414d59;
+            padding: 0px 1rem;
+
+            p {
+                width: 10px;
+                border: 1px solid white;
+            }
+
+            ion-datetime {
+                padding: 0;
+            }
+        }
+
+        ion-card {
+            background: #414d59;
+
+            p {
+                margin: 5px 0 0 0;
+                color: #cacaca;
+            }
+        }
+
+        .itemBody {
+            margin-top: 1rem;
+            border-radius: 1rem;
+            overflow: hidden;
+            background: #414d59;
+
+            .dataItem {
+                padding: 5px 0;
+                border-bottom: 1px solid rgb(118, 118, 118);
+
+                &:last-child {
+                    border-bottom: none;
+                }
+
+                ion-img {
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    border: 2px solid white;
+                }
+
+                div {
+                    margin-left: 5px;
+
+                    p {
+                        margin: 0;
+                        color: #cacaca;
+                        font-size: 12px;
+                    }
+
+                    .userName {
+                        color: white !important;
+                    }
+                }
+            }
+        }
+    }
+
+    ion-footer {
+        --background: transparent;
+
+        .footerLine {
+            width: 40%;
+            border: 3px solid white;
+            border-radius: 10px;
+        }
+    }
+}
