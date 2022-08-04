@@ -22,7 +22,7 @@
         .customInput {
             &:before {
                 content: "";
-                background-image: url('../assets/login-user.png');
+                background-image: url('../assets/login-user1.png');
                 position: absolute;
                 background-repeat: no-repeat;
                 background-size: 25px 25px;
@@ -41,7 +41,7 @@
 
             &:before {
                 content: "";
-                background-image: url('../assets/login-lock.png');
+                background-image: url('../assets/login-lock1.png');
                 position: absolute;
                 background-repeat: no-repeat;
                 background-size: 20px 25px;
@@ -57,12 +57,12 @@
 }
 
 .customInput {
-    --background: #7777772e;
+    --background: #f5f5f5;
     --padding-bottom: 1rem;
     --padding-top: 1rem;
     --padding-start: 3.5rem;
     --padding-end: 1rem;
-    --color: #d2d2d2;
+    --color: black;
     border-radius: 30px;
     margin-top: 0.25rem;
     transition: all 0.2s linear;

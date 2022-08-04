@@ -1,10 +1,18 @@
 .withdrawPage {
-    background: #2a353e;
+    background: white;
 
     ion-header {
+        .custom-back {
+            color: black !important;
+        }
+
         ion-toolbar {
             --padding-start: 1rem;
             --padding-end: 1rem;
+
+            ion-title {
+                color: black;
+            }
 
             ion-button {
                 font-size: 20px;
@@ -15,10 +23,11 @@
     ion-content {
 
         ion-card {
-            background: url(./1.png);
+            background: url(./2.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
+            color: white;
         }
 
         h2 {
@@ -30,7 +39,7 @@
         }
 
         ion-label {
-            color: white;
+            color: black;
             display: block;
             // margin-bottom: 20px;
         }

@@ -50,7 +50,7 @@ const Record = () => {
                                             <IonImg src='/assets/images/record/product.png' alt='product' />
                                         </IonCol>
                                         <IonCol size='9'>
-                                            <h6 className='text-white'>Haier 15.6-inch narrow-bezel thin and light laptop</h6>
+                                            <h6 className=''>Haier 15.6-inch narrow-bezel thin and light laptop</h6>
                                         </IonCol>
                                     </IonRow>
                                     <IonRow className='ion-justify-content-between'>
@@ -76,7 +76,7 @@ const Record = () => {
                                             <IonImg src='/assets/images/record/product.png' alt='product' />
                                         </IonCol>
                                         <IonCol size='9'>
-                                            <h6 className='text-white'>Haier 15.6-inch narrow-bezel thin and light laptop</h6>
+                                            <h6 className=''>Haier 15.6-inch narrow-bezel thin and light laptop</h6>
                                         </IonCol>
                                     </IonRow>
                                     <IonRow className='ion-justify-content-between'>
@@ -112,7 +112,7 @@ const Record = () => {
                                             <IonImg src='/assets/images/record/product.png' alt='product' />
                                         </IonCol>
                                         <IonCol size='9'>
-                                            <h6 className='text-white'>Haier 15.6-inch narrow-bezel thin and light laptop</h6>
+                                            <h6 className=''>Haier 15.6-inch narrow-bezel thin and light laptop</h6>
                                         </IonCol>
                                     </IonRow>
                                     <IonRow className='ion-justify-content-between'>
@@ -138,7 +138,7 @@ const Record = () => {
                                             <IonImg src='/assets/images/record/product.png' alt='product' />
                                         </IonCol>
                                         <IonCol size='9'>
-                                            <h6 className='text-white'>Haier 15.6-inch narrow-bezel thin and light laptop</h6>
+                                            <h6 className=''>Haier 15.6-inch narrow-bezel thin and light laptop</h6>
                                         </IonCol>
                                     </IonRow>
                                     <IonRow className='ion-justify-content-between'>
@@ -174,7 +174,7 @@ const Record = () => {
                                             <IonImg src='/assets/images/record/product.png' alt='product' />
                                         </IonCol>
                                         <IonCol size='9'>
-                                            <h6 className='text-white'>Haier 15.6-inch narrow-bezel thin and light laptop</h6>
+                                            <h6 className=''>Haier 15.6-inch narrow-bezel thin and light laptop</h6>
                                         </IonCol>
                                     </IonRow>
                                     <IonRow className='ion-justify-content-between'>
@@ -200,7 +200,7 @@ const Record = () => {
                                             <IonImg src='/assets/images/record/product.png' alt='product' />
                                         </IonCol>
                                         <IonCol size='9'>
-                                            <h6 className='text-white'>Haier 15.6-inch narrow-bezel thin and light laptop</h6>
+                                            <h6 className=''>Haier 15.6-inch narrow-bezel thin and light laptop</h6>
                                         </IonCol>
                                     </IonRow>
                                     <IonRow className='ion-justify-content-between'>

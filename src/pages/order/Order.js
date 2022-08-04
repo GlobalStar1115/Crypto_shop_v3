@@ -28,15 +28,6 @@ const Order = () => {
                 </IonToolbar>
             </IonHeader>
             <IonContent fullscreen className='ion-padding'>
-                <IonCard className={styles.topCard}>
-                    <IonRow className='ion-justify-content-between ion-align-items-center ion-padding-start ion-padding-end'>
-                        <IonCol size='6'>
-                            <span>{t('order.account-amount')}:</span>
-                            <h2 className={`main-number ${styles.balanceAmount}`}>$ 1231.34</h2>
-                        </IonCol>
-                        <IonImg src="/assets/images/1.png" />
-                    </IonRow>
-                </IonCard>
                 <IonCard className={`${styles.orderCard}`}>
                     <IonRow className='ion-justify-content-between ion-align-items-center'>
                         <div>

@@ -1,5 +1,5 @@
 .bankPage {
-    background: #2a353e;
+    background: white;
 
     ion-header {
         ion-toolbar {
@@ -15,13 +15,18 @@
     ion-content {
 
         ion-label {
-            color: white;
+            color: black;
             display: block;
             // margin-bottom: 20px;
         }
 
+        p {
+            color: black;
+        }
+
         .tipComment {
             font-size: 14px;
+            color: rgb(117, 117, 117);
         }
     }
 

@@ -1,5 +1,5 @@
 .notificationPage {
-    background: #2a353e;
+    background: white;
 
     ion-header {
         ion-toolbar {
@@ -15,7 +15,8 @@
     ion-content {
         ion-card {
             margin-bottom: 1rem;
-            background: #212932;
+            background: #f1f2f2;
+            color: black;
 
             .date {
                 color: #cacaca;
@@ -31,6 +32,7 @@
             ion-icon {
                 font-size: 24px;
                 margin-right: 10px;
+                color: #0099fe;
             }
         }
     }

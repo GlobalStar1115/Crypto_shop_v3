@@ -78,7 +78,7 @@ const Login = () => {
                                     </div>
                                 </IonCol>
                                 <IonCol className='ion-text-right'>
-                                    <IonRouterLink routerLink='/forgot'>
+                                    <IonRouterLink routerLink='/password'>
                                         {t('login.forgot')}
                                     </IonRouterLink>
                                 </IonCol>

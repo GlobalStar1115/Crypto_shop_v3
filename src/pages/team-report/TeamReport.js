@@ -52,8 +52,8 @@ const TeamReport = () => {
                     </IonRow>
                     <IonCard className='ion-padding main-radius ion-no-margin'>
                         <div className='d-flex ion-justify-content-between ion-margin-bottom'>
-                            <span className='text-white'>{t('team-report.all-data')}</span>
-                            <span className='main-number text-white'>$ 12345.123</span>
+                            <span>{t('team-report.all-data')}</span>
+                            <span className='main-number'>$ 12345.123</span>
                         </div>
                         <p>{t('team-report.team-size')}: 973</p>
                         <p>{t('team-report.team-commission')}: 3351</p>

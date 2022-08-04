@@ -36,8 +36,8 @@ const WithdrawRecord = () => {
                     <p>{t('withdraw-record.title')}</p>
                     <IonCard className='ion-no-margin ion-padding main-radius'>
                         <IonRow className='ion-justify-content-between ion-align-items-center'>
-                            <span className='text-white'>{t('withdraw-record.order-number')}: DDSG332236424342</span>
-                            <span className='text-white main-number'>$ 1234.123</span>
+                            <span>{t('withdraw-record.order-number')}: DDSG332236424342</span>
+                            <span className={`main-number ${styles.totalAmount}`}>$ 1234.123</span>
                         </IonRow>
                         <IonRow className='ion-justify-content-between ion-align-items-center ion-margin-top'>
                             <span className={styles.date}>{t('withdraw-record.time')}: {date}</span>
@@ -46,8 +46,8 @@ const WithdrawRecord = () => {
                     </IonCard>
                     <IonCard className='ion-no-margin ion-padding main-radius'>
                         <IonRow className='ion-justify-content-between ion-align-items-center'>
-                            <span className='text-white'>{t('withdraw-record.order-number')}: DDSG332236424342</span>
-                            <span className='text-white main-number'>$ 1234.123</span>
+                            <span>{t('withdraw-record.order-number')}: DDSG332236424342</span>
+                            <span className={`main-number ${styles.totalAmount}`}>$ 1234.123</span>
                         </IonRow>
                         <IonRow className='ion-justify-content-between ion-align-items-center ion-margin-top'>
                             <span className={styles.date}>{t('withdraw-record.time')}: {date}</span>

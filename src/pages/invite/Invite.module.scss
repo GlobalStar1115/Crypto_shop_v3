@@ -1,11 +1,20 @@
 .invitePage {
+    background: url(./invite-bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
     ion-header {
-        background: #2a353e;
+        background: #0f4cb2;
+
 
         ion-toolbar {
             --padding-start: 1rem;
             --padding-end: 1rem;
+
+            ion-title {
+                color: white;
+            }
 
             ion-button {
                 font-size: 20px;
@@ -14,16 +23,12 @@
     }
 
     ion-content {
-        background: url(./invite-bg.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
 
         ion-grid {
             display: flex;
             flex-direction: column;
             align-items: center;
-            margin-top: 35vh;
+            margin-top: 45vh;
         }
 
         span {
@@ -45,8 +50,8 @@
     }
 
     ion-footer {
-        --background: #172c4f;
-        background: #172c4f;
+        --background: #0f4cb2;
+        background: #0f4cb2;
 
         .footerLine {
             width: 40%;

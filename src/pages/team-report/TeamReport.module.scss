@@ -1,10 +1,14 @@
 .teamReportPage {
-    background: #2a353e;
+    background: white;
 
     ion-header {
         ion-toolbar {
             --padding-start: 1rem;
             --padding-end: 1rem;
+
+            ion-title {
+                color: black;
+            }
 
             ion-button {
                 font-size: 20px;
@@ -13,30 +17,38 @@
     }
 
     ion-content {
+
         .tabBox {
             span {
                 border-radius: 12px;
-                background: #53616d;
-                color: #cacaca;
+                background: #f1f2f2;
+                color: black;
                 padding: 5px 12px;
                 margin: 0 2px;
 
                 &:active {
                     color: white;
-                    background: rgb(64, 78, 93);
-                    background: radial-gradient(circle, rgba(64, 78, 93, 1) 36%, rgba(35, 41, 47, 1) 79%);
+                    background: #0099fe;
+                }
+
+                &:hover,
+                &:active,
+                &:focus-visible {
+                    background-color: #0099fe;
+                    color: white;
                 }
             }
 
         }
 
         .diplayRange {
-            background: #414d59;
+            background: #f1f2f2;
             padding: 0px 1rem;
+            color: black;
 
             p {
                 width: 10px;
-                border: 1px solid white;
+                border: 1px solid black;
             }
 
             ion-datetime {
@@ -45,11 +57,11 @@
         }
 
         ion-card {
-            background: #414d59;
+            background: #f1f2f2;
+            color: black;
 
             p {
                 margin: 5px 0 0 0;
-                color: #cacaca;
             }
         }
 
@@ -57,11 +69,11 @@
             margin-top: 1rem;
             border-radius: 1rem;
             overflow: hidden;
-            background: #414d59;
+            background: #f1f2f2;
 
             .dataItem {
                 padding: 5px 0;
-                border-bottom: 1px solid rgb(118, 118, 118);
+                border-bottom: 1px solid rgb(226, 226, 226);
 
                 &:last-child {
                     border-bottom: none;
@@ -80,12 +92,12 @@
 
                     p {
                         margin: 0;
-                        color: #cacaca;
+                        color: black;
                         font-size: 12px;
                     }
 
                     .userName {
-                        color: white !important;
+                        color: black !important;
                     }
                 }
             }

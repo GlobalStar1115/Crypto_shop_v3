@@ -17,7 +17,7 @@ const Invite = () => {
                     <IonRow className='ion-justify-content-between ion-align-items-center'>
                         <IonCol size='2'>
                             <IonButtons>
-                                <IonBackButton icon={chevronBackOutline} text="" className="custom-back ion-no-padding ion-no-margin" />
+                                <IonBackButton icon={chevronBackOutline} text="" className="ion-no-padding ion-no-margin" />
                             </IonButtons>
                         </IonCol>
                         <IonCol size='8'>

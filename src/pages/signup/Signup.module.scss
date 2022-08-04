@@ -1,5 +1,5 @@
 .signupPage {
-    background: url(./siginup.png);
+    background: url(./siginup1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -11,6 +11,10 @@
 
             ion-button {
                 font-size: 20px;
+
+                ion-icon {
+                    color: #0099fe;
+                }
             }
         }
     }
@@ -25,7 +29,7 @@
 
         p {
             font-size: 1.2rem;
-            color: white;
+            color: black;
         }
     }
 
@@ -34,7 +38,7 @@
 
         .footerLine {
             width: 40%;
-            border: 3px solid white;
+            border: 3px solid black;
             border-radius: 10px;
         }
     }

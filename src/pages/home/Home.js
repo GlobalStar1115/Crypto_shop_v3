@@ -58,19 +58,19 @@ const Home = () => {
                         </IonCard>
                         <IonRow className={`ion-justify-content-center ion-margin-top ion-padding-top ion-margin-bottom ${styles.imageText}`}>
                             <div className='ion-text-center'>
-                                <IonImg src="/assets/images/home/10@2x.png" />
+                                <IonImg src="/assets/images/home/11.png" />
                                 <span>{t('home.coincharge')}</span>
                             </div>
                             <div>
-                                <IonImg src="/assets/images/home/11@2x.png" />
+                                <IonImg src="/assets/images/home/12.png" />
                                 <span>{t('home.cashwithdraw')}</span>
                             </div>
                             <div>
-                                <IonImg src="/assets/images/home/13@2x.png" />
+                                <IonImg src="/assets/images/home/13.png" />
                                 <span>{t('home.promotion')}</span>
                             </div>
                             <div>
-                                <IonImg src="/assets/images/home/12@2x.png" />
+                                <IonImg src="/assets/images/home/14.png" />
                                 <span>{t('home.invite')}</span>
                             </div>
                         </IonRow>

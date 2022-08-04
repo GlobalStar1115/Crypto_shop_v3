@@ -22,7 +22,7 @@ const Language = () => {
     }, [params]);
 
     return (
-        <IonPage className={styles.forgotPage}>
+        <IonPage className={styles.languagePage}>
             <IonHeader>
                 <IonToolbar>
                     <IonRow className='ion-justify-content-between ion-align-items-center'>

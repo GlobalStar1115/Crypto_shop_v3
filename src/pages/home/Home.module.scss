@@ -1,15 +1,13 @@
 .homePage {
 
-    background: #212932;
+    background: white;
 
     ion-content {
         .homeBrandBackground {
-            background: #53616d75;
-            border-bottom-left-radius: 30px;
-            border-bottom-right-radius: 30px;
-
             .homeBrand {
-                background-image: url(./home/background2@2x.png);
+                border-bottom-left-radius: 30px;
+                border-bottom-right-radius: 30px;
+                background-image: url(./home-top.png);
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -30,7 +28,7 @@
                 }
 
                 .brandCard {
-                    background: url(./home/background1@2x.png);
+                    background: url(./2.png);
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;
@@ -44,7 +42,7 @@
 
                     ion-img {
                         border-radius: 50%;
-                        border: 2px solid gray;
+                        border: 2px solid #0099fe;
                         width: 50px;
                         height: 50px;
                         background: white;
@@ -67,11 +65,12 @@
                             height: 50px;
                             border-radius: 50%;
                             padding: 10px;
-                            background: #53616d;
+                            background: #0099fe;
                         }
 
                         span {
                             margin-top: 5px;
+                            color: black;
                         }
                     }
                 }
@@ -80,15 +79,15 @@
 
         .homeCardGroup {
             ion-card {
-                background: linear-gradient(164deg, rgba(67, 79, 91, 1) 35%, rgba(45, 57, 69, 1) 100%);
+                background: #e6eaec;
                 border-radius: 1rem;
 
                 span {
-                    color: #49c1fb;
+                    color: black;
                 }
 
                 h5 {
-                    color: white;
+                    color: #0099fe;
                     margin-bottom: 0;
                     margin-top: 10px;
                 }
@@ -101,12 +100,12 @@
 
                 div {
                     height: 12px;
-                    border-left: 2px solid #49c1fb;
+                    border-left: 2px solid #0099fe;
                     border-radius: 1rem;
                 }
 
                 span {
-                    color: #49c1fb;
+                    color: #0099fe;
                     font-size: 1.2rem;
                 }
             }
@@ -206,20 +205,21 @@
 
                 div {
                     height: 12px;
-                    border-left: 2px solid #49c1fb;
+                    border-left: 2px solid #0099fe;
                     border-radius: 1rem;
                 }
 
                 span {
-                    color: #49c1fb;
+                    color: #0099fe;
                     font-size: 1.2rem;
                 }
             }
 
             .incomeItem {
-                background: #39434e;
+                background: #e6eaec;
                 border-radius: 1rem;
                 padding: 5px 30px;
+                color: black;
                 margin: 10px 0;
 
                 ion-img {
@@ -235,6 +235,7 @@
 
                 h6 {
                     margin: 0;
+                    color: #0099fe;
                 }
 
                 .incomeAmount {
@@ -244,19 +245,19 @@
         }
 
         .homeBottomBackground {
-            background: #53616d75;
+            background: #f3f3f3;
             border-top-left-radius: 30px;
             border-top-right-radius: 30px;
 
             .sectionTitle {
                 div {
                     height: 12px;
-                    border-left: 2px solid #49c1fb;
+                    border-left: 2px solid #0099fe;
                     border-radius: 1rem;
                 }
 
                 span {
-                    color: #49c1fb;
+                    color: #0099fe;
                     font-size: 1.2rem;
                 }
             }
@@ -294,7 +295,7 @@
                 }
 
                 h2 {
-                    color: white;
+                    color: black;
                     font-size: 1rem;
                     text-align: left;
                     padding: 10px 0px 10px 15px;
@@ -308,7 +309,7 @@
                 }
 
                 p {
-                    color: white;
+                    color: black;
                     text-align: left;
                     font-size: 14px;
                     line-height: 1.45;
@@ -333,10 +334,11 @@
                     overflow: hidden;
                     padding: 0;
                     margin: 0;
-                    background: #212932;
+                    background: white;
                     box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.1);
                     border-radius: 1rem;
                     -webkit-tap-highlight-color: transparent;
+                    color: black;
                 }
 
                 ul li+li {
@@ -382,13 +384,14 @@
                 }
 
                 ul li input[type=checkbox]:checked~h2 {
-                    color: white;
+                    color: black;
                 }
 
                 ul li input[type=checkbox]:checked~p {
                     max-height: 0;
                     transition: .3s;
                     opacity: 0;
+                    color: black;
                 }
 
                 ul li input[type=checkbox]:checked~i:before {

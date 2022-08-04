@@ -23,7 +23,7 @@ http://ionicframework.com/docs/theming/ */
 /** Ionic CSS Variables **/
 
 :root {
-  --ion-background-color: black;
+  --ion-background-color: white;
   --ion-text-color: white;
   --ion-tab-bar-background: black;
   --ion-toolbar-background: black;
@@ -32,7 +32,7 @@ http://ionicframework.com/docs/theming/ */
 
 .custom-button {
   --border-radius: 30px;
-  --background: #77a2d8;
+  --background: #0099fe;
   --background-activated: #77a2d8;
   --background-focused: #77a2d8;
   --padding-bottom: 1.5rem;
@@ -61,6 +61,7 @@ ion-footer {
 .custom-back {
   font-size: 0.8rem;
   background-color: transparent !important;
+  color: black;
 }
 
 ion-tab-button {
@@ -124,6 +125,10 @@ ion-tab-bar::after {
 
 .d-flex {
   display: flex;
+}
+
+ion-title {
+  color: black;
 }
 
 ion-tab-bar ion-img.home-icon {

@@ -1,5 +1,5 @@
 .loginPage {
-    background: url(./login.png);
+    background: url(./login1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -10,6 +10,10 @@
 
         ion-button {
             font-size: 20px;
+
+            ion-icon {
+                color: #0099fe;
+            }
         }
     }
 
@@ -24,13 +28,13 @@
         .goToSignup {
             p {
                 font-size: 1.2rem;
-                color: white;
+                color: black;
             }
         }
 
         ion-button {
             --border-radius: 30px;
-            --background: #77a2d87d;
+            --background: #47b2f8a6;
             --background-activated: #77a2d8;
             --background-focused: #77a2d8;
             --padding-bottom: 1.5rem;
@@ -55,13 +59,14 @@
             .loginFormGroup label {
                 position: relative;
                 cursor: pointer;
+                color: #606060;
             }
 
             .loginFormGroup label:before {
                 content: '';
                 -webkit-appearance: none;
                 background-color: transparent;
-                border: 2px solid #ebebeca3;
+                border: 2px solid #606060;
                 border-radius: 5px;
                 box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
                 padding: 7px;
@@ -81,7 +86,7 @@
                 left: 6px;
                 width: 4px;
                 height: 10px;
-                border: solid #ebebeca3;
+                border: solid #606060;
                 border-width: 0 2px 2px 0;
                 transform: rotate(45deg);
             }

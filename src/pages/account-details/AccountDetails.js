@@ -40,7 +40,7 @@ const AccountDetails = () => {
                         </IonRow>
                         <IonRow className='ion-justify-content-between ion-align-items-center ion-margin-top'>
                             <span className={styles.statusBadge}>{t('account-details.status-commission')}</span>
-                            <span className='text-white main-number'>$ 1234.123</span>
+                            <span className={`main-number ${styles.totalAmount}`}>$ 1234.123</span>
                         </IonRow>
                     </IonCard>
                     <IonCard className='ion-no-margin ion-padding main-radius'>
@@ -49,7 +49,7 @@ const AccountDetails = () => {
                         </IonRow>
                         <IonRow className='ion-justify-content-between ion-align-items-center ion-margin-top'>
                             <span className={styles.statusBadge}>{t('account-details.status-commission')}</span>
-                            <span className='text-white main-number'>$ 1234.123</span>
+                            <span className={`main-number ${styles.totalAmount}`}>$ 1234.123</span>
                         </IonRow>
                     </IonCard>
                 </IonGrid>

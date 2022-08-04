@@ -35,10 +35,10 @@ const Notification = () => {
                 <IonGrid className="ion-no-padding">
                     <IonCard className='ion-no-margin ion-padding main-radius'>
                         <IonRow className='ion-align-items-center'>
-                            <IonIcon className='text-white' icon={volumeHighOutline} />
-                            <span className='text-white'>{t('system-info.notification')}</span>
+                            <IonIcon icon={volumeHighOutline} />
+                            <span>{t('system-info.notification')}</span>
                         </IonRow>
-                        <p className='text-white ion-text-center'>{t('system-info.noti-title')}</p>
+                        <p className='ion-text-center'>{t('system-info.noti-title')}</p>
                         <span>{t('system-info.noti-content')}</span>
                     </IonCard>
                 </IonGrid>
