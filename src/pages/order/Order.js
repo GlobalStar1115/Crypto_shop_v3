@@ -5,9 +5,17 @@ import { chatboxEllipsesOutline } from "ionicons/icons";
 
 import { useTranslation } from "react-i18next";
 import OrderSlider from '../../components/slider/OrderSlider';
+import { useState, useEffect } from 'react';
 
 const Order = () => {
     const { t, i18n } = useTranslation('lang');
+    const [slider, setSlider] = useState(false)
+
+    useEffect(() => {
+        setTimeout(() => {
+            setSlider(true)
+        }, 100)
+    }, [])
 
     return (
         <IonPage className={styles.orderPage}>
@@ -47,7 +55,9 @@ const Order = () => {
                             <span className={`main-number ${styles.roundedNumber}`}>22</span> <span className='main-number'> / </span><span className='main-number'>60</span>
                         </IonRow>
                     </IonRow>
-                    <OrderSlider />
+                    {
+                        slider ? <OrderSlider /> : ''
+                    }
                 </IonCard>
                 <div className={`text-white ${styles.orderList}`}>
                     <div className='d-flex ion-justify-content-between ion-align-items-center'>

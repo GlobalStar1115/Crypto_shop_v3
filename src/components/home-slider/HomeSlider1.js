@@ -14,8 +14,8 @@ export default class CenterMode extends Component {
             centerPadding: "60px",
             dots: true,
             autoplay: true,
-            speed: 1500,
-            autoplaySpeed: 3000,
+            speed: 1000,
+            autoplaySpeed: 2500,
         };
         return (
             <div className="slider-body">

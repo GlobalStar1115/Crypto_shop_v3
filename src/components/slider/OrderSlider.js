@@ -1,6 +1,6 @@
 import { IonImg } from '@ionic/react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCards, Autoplay } from "swiper";
+import SwiperCore, { EffectCards, Autoplay } from "swiper";
 import { useTranslation } from "react-i18next";
 import 'swiper/swiper.min.css';
 
@@ -10,15 +10,15 @@ import './Order.scss';
 
 export default () => {
     const { t, i18n } = useTranslation('lang');
+    SwiperCore.use([Autoplay]);
     return (
         <Swiper
             effect={"cards"}
             grabCursor={true}
             modules={[Autoplay, EffectCards]}
             loop={true}
-            speed={1000}
             autoplay={{
-                delay: 2000,
+                delay: 2500,
                 disableOnInteraction: false,
             }}
             className="orderSwiper"
