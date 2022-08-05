@@ -4,6 +4,7 @@ import styles from './Order.module.scss';
 import { chatboxEllipsesOutline } from "ionicons/icons";
 
 import { useTranslation } from "react-i18next";
+import OrderSlider from '../../components/slider/OrderSlider';
 
 const Order = () => {
     const { t, i18n } = useTranslation('lang');
@@ -29,16 +30,24 @@ const Order = () => {
             </IonHeader>
             <IonContent fullscreen className='ion-padding'>
                 <IonCard className={`${styles.orderCard}`}>
-                    <IonRow className='ion-justify-content-between ion-align-items-center'>
-                        <div>
-                            <h4 className='ion-no-margin'>{t('order.ordinary-member')}</h4>
-                            <p>{t('order.commission')} 0.4% | 60 {t('order.order')}</p>
-                        </div>
+                    <IonRow className='ion-justify-content-end'>
                         <IonImg src='/assets/images/3.png' alt='tooltip' />
                     </IonRow>
-                    <IonRow className={`ion-justify-content-center ion-margin-bottom ion-align-items-center ion-margin-top ${styles.orderAmount}`}>
-                        <span className={`main-number ${styles.roundedNumber}`}>22</span> <span className='main-number'> / </span><span className='main-number'>60</span>
+                    <IonRow className={`ion-justify-content-between ion-margin-bottom ${styles.cardDetail}`}>
+                        <IonImg src='/assets/images/home/01@2x.png' alt='badge' />
+                        <div>
+                            <span>{t('order.account-amount')}:</span>
+                            <h4 className='main-number ion-no-margin'>$ 1223.123</h4>
+                            <IonRow className='ion-align-items-center'>
+                                <span className='ion-margin-end'>{t('order.ordinary-member')}:</span>
+                                <span>{t('order.commission')} 0.4% | 60 {t('order.order')}</span>
+                            </IonRow>
+                        </div>
+                        <IonRow className={`ion-justify-content-center ion-margin-bottom ion-align-items-center ion-margin-top ${styles.orderAmount}`}>
+                            <span className={`main-number ${styles.roundedNumber}`}>22</span> <span className='main-number'> / </span><span className='main-number'>60</span>
+                        </IonRow>
                     </IonRow>
+                    <OrderSlider />
                 </IonCard>
                 <div className={`text-white ${styles.orderList}`}>
                     <div className='d-flex ion-justify-content-between ion-align-items-center'>

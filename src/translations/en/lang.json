@@ -129,7 +129,8 @@
         "freeze-amount": "Frozen",
         "quantity-order": "Quantity of order",
         "enable-amount": "Avaliable",
-        "start-order": "Start grabbing orders"
+        "start-order": "Start grabbing orders",
+        "product-name": "Product name"
     },
     "record": {
         "title": "Record",

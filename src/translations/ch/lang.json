@@ -129,7 +129,8 @@
         "freeze-amount": "冻结金额",
         "quantity-order": "订单数量",
         "enable-amount": "可用余额",
-        "start-order": "开始抢单"
+        "start-order": "开始抢单",
+        "product-name": "商品名称"
     },
     "record": {
         "title": "记录",

@@ -44,7 +44,7 @@
         }
 
         .orderCard {
-            background: url(./2.png);
+            background: url(./3.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -53,6 +53,28 @@
             border-radius: 1rem;
             margin: 0;
 
+            h4 {
+                margin: 5px 0;
+            }
+
+            .cardDetail {
+                flex-wrap: nowrap;
+                font-size: 12px;
+            }
+
+            ion-img[alt="tooltip"] {
+                background: white;
+                padding: 5px;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+            }
+
+            ion-img[alt="badge"] {
+                width: 70px;
+                height: 70px;
+            }
+
             p {
                 margin-top: 5px;
                 margin-bottom: 0;
@@ -60,7 +82,7 @@
 
             .orderAmount {
                 span {
-                    font-size: 30px;
+                    font-size: 18px;
                 }
 
                 .roundedNumber {

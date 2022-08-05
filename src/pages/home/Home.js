@@ -4,7 +4,6 @@ import { IonCol, IonContent, IonCard, IonImg, IonGrid, IonPage, IonRow, IonTitle
 
 import { useTranslation } from "react-i18next";
 
-
 const Home = () => {
     const { t, i18n } = useTranslation('lang');
 
