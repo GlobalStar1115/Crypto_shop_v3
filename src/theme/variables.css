@@ -146,8 +146,9 @@ ion-tab-button::part(native) {
 
 .swiper-pagination-bullet-active {
   background: white;
-  width: 15px;
-  border-radius: 10px;
+  width: 15px !important;
+  border-radius: 10px !important;
+
 }
 
 .swiper-container-horizontal>.swiper-pagination-bullets {

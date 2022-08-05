@@ -12,21 +12,6 @@
                 background-size: cover;
                 background-position: center;
 
-                ion-slides {
-                    padding: 20px 0;
-
-                    .swiper-pagination {
-                        bottom: 0 !important;
-                    }
-
-                    ion-img {
-                        width: auto;
-                        overflow: hidden;
-                        border-radius: 1rem;
-                        // box-shadow: 0 0 10px #0000009c;
-                    }
-                }
-
                 .brandCard {
                     background: url(./2.png);
                     background-repeat: no-repeat;

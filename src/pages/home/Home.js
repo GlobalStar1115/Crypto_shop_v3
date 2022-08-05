@@ -3,21 +3,10 @@ import styles from './Home.module.scss';
 import { IonCol, IonContent, IonCard, IonImg, IonGrid, IonPage, IonRow, IonTitle, IonSlides, IonSlide } from '@ionic/react';
 
 import { useTranslation } from "react-i18next";
+import HomeSider from '../../components/home-slider/HomeSlider';
 
 const Home = () => {
     const { t, i18n } = useTranslation('lang');
-
-    const slideOpts = {
-        slidesPerView: 1.5,
-        centeredSlides: true,
-        initialSlide: 1,
-        spaceBetween: 0,
-        speed: 700,
-        autoplay: {
-            delay: 1500,
-        },
-        loop: true
-    };
 
     return (
         <IonPage className={styles.homePage}>
@@ -28,23 +17,7 @@ const Home = () => {
                             <IonTitle className='main-title ion-text-center'>{t('home.title')}</IonTitle>
                         </IonRow>
                         <IonRow>
-                            <IonSlides pager={true} options={slideOpts} >
-                                <IonSlide>
-                                    <IonImg src='/assets/images/slider/1.png' alt='slider-img' />
-                                </IonSlide>
-                                <IonSlide>
-                                    <IonImg src='/assets/images/slider/1.png' alt='slider-img' />
-                                </IonSlide>
-                                <IonSlide>
-                                    <IonImg src='/assets/images/slider/1.png' alt='slider-img' />
-                                </IonSlide>
-                                <IonSlide>
-                                    <IonImg src='/assets/images/slider/1.png' alt='slider-img' />
-                                </IonSlide>
-                                <IonSlide>
-                                    <IonImg src='/assets/images/slider/1.png' alt='slider-img' />
-                                </IonSlide>
-                            </IonSlides>
+                            <HomeSider />
                         </IonRow>
                         <IonCard className={`ion-padding ${styles.brandCard}`}>
                             <IonRow className='ion-justify-content-between ion-align-items-center ion-padding-start ion-padding-end'>
