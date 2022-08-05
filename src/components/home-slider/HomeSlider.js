@@ -15,7 +15,7 @@ export default function App() {
                 centeredSlides={true}
                 autoplay={{
                     delay: 500,
-                    // disableOnInteraction: false,
+                    disableOnInteraction: false,
                 }}
                 pagination={{
                     clickable: true,
@@ -23,7 +23,6 @@ export default function App() {
                 className="mySwiper"
                 loop={true}
                 modules={[Autoplay, Pagination]}
-                data-swiper-autoplay="2000"
             >
                 <SwiperSlide><IonImg src="/assets/images/product/1.png" alt='product' /></SwiperSlide>
                 <SwiperSlide><IonImg src="/assets/images/product/1.png" alt='product' /></SwiperSlide>
