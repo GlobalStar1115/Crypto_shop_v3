@@ -2,6 +2,7 @@ import { IonImg } from '@ionic/react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCards } from "swiper";
 import { useTranslation } from "react-i18next";
+import 'swiper/swiper.min.css';
 
 import 'swiper/modules/effect-cards/effect-cards.scss';
 import './Order.scss';

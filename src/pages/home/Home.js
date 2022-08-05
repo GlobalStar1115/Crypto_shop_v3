@@ -3,7 +3,7 @@ import styles from './Home.module.scss';
 import { IonCol, IonContent, IonCard, IonImg, IonGrid, IonPage, IonRow, IonTitle, IonSlides, IonSlide } from '@ionic/react';
 
 import { useTranslation } from "react-i18next";
-import HomeSider from '../../components/home-slider/HomeSlider';
+import HomeSlider1 from '../../components/home-slider/HomeSlider1';
 
 const Home = () => {
     const { t, i18n } = useTranslation('lang');
@@ -17,7 +17,7 @@ const Home = () => {
                             <IonTitle className='main-title ion-text-center'>{t('home.title')}</IonTitle>
                         </IonRow>
                         <IonRow>
-                            <HomeSider />
+                            <HomeSlider1 />
                         </IonRow>
                         <IonCard className={`ion-padding ${styles.brandCard}`}>
                             <IonRow className='ion-justify-content-between ion-align-items-center ion-padding-start ion-padding-end'>

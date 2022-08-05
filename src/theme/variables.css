@@ -144,31 +144,33 @@ ion-tab-button::part(native) {
   overflow: visible;
 }
 
-.swiper-pagination-bullet-active {
-  background: white;
-  width: 15px !important;
-  border-radius: 10px !important;
-
+.slick-slide {
+  transform: scale(0.85);
+  transition: all .25s ease-out;
 }
 
-.swiper-container-horizontal>.swiper-pagination-bullets {
-  bottom: 0;
-}
-
-.swiper-slide-active ion-img {
+.slick-slide.slick-active.slick-center.slick-current {
   transform: scale(1);
 }
 
-.swiper-slide-next ion-img {
-  transform: scale(0.85);
-  transition: all .25s ease-out;
+.slick-dots {
+  bottom: 10px !important;
 }
 
-.swiper-slide-prev ion-img {
-  transform: scale(0.85);
-  transition: all .25s ease-out;
+.slick-slider {
+  padding-bottom: 30px;
 }
 
-.swiper-slide {
-  transition: all .25s ease-out;
+.slick-dots li button:before {
+  font-size: 10px !important;
+  color: #e6eaec;
+}
+
+.slick-dots li.slick-active button:before {
+  content: '';
+  width: 15px;
+  background: black;
+  height: 8px;
+  top: 5px;
+  border-radius: 10px;
 }
