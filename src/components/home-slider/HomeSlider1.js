@@ -21,19 +21,19 @@ export default class CenterMode extends Component {
             <div className="slider-body">
                 <Slider {...settings}>
                     <div className="slider-item">
-                        <IonImg src="/assets/images/product/4.png" />
+                        <IonImg src="/assets/images/product/1.png" />
                     </div>
                     <div className="slider-item">
-                        <IonImg src="/assets/images/product/4.png" />
+                        <IonImg src="/assets/images/product/1.png" />
                     </div>
                     <div className="slider-item">
-                        <IonImg src="/assets/images/product/4.png" />
+                        <IonImg src="/assets/images/product/1.png" />
                     </div>
                     <div className="slider-item">
-                        <IonImg src="/assets/images/product/4.png" />
+                        <IonImg src="/assets/images/product/1.png" />
                     </div>
                     <div className="slider-item">
-                        <IonImg src="/assets/images/product/4.png" />
+                        <IonImg src="/assets/images/product/1.png" />
                     </div>
                 </Slider>
             </div>
