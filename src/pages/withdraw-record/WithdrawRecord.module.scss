@@ -2,6 +2,10 @@
     background: white;
 
     ion-header {
+        h4 {
+            color: black;
+        }
+
         ion-toolbar {
             --padding-start: 1rem;
             --padding-end: 1rem;

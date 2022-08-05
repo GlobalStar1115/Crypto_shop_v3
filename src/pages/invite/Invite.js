@@ -21,7 +21,7 @@ const Invite = () => {
                             </IonButtons>
                         </IonCol>
                         <IonCol size='8'>
-                            <IonTitle className='main-title ion-text-center'>{t('invite.title')}</IonTitle>
+                            <h4 className='main-title ion-text-center ion-no-margin'>{t('invite.title')}</h4>
                         </IonCol>
                         <IonCol size='2'>
 

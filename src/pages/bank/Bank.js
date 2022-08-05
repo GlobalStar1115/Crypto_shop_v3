@@ -48,7 +48,7 @@ const Bank = () => {
                             </IonButtons>
                         </IonCol>
                         <IonCol size='8'>
-                            <IonTitle className='main-title ion-text-center'>{t('bank.title')}</IonTitle>
+                            <h4 className='main-title ion-text-center ion-no-margin ion-no-margin'>{t('bank.title')}</h4>
                         </IonCol>
                         <IonCol size='2'>
 

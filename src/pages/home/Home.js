@@ -14,7 +14,7 @@ const Home = () => {
                 <IonGrid className={`ion-no-padding ${styles.homeBrandBackground}`}>
                     <IonGrid className={`ion-padding-bottom ${styles.homeBrand}`}>
                         <IonRow className='ion-justify-content-center ion-align-items-center ion-padding'>
-                            <IonTitle className='main-title ion-text-center'>{t('home.title')}</IonTitle>
+                            <h4 className='main-title ion-text-center  ion-no-margin'>{t('home.title')}</h4>
                         </IonRow>
                         <IonRow>
                             <HomeSlider1 />

@@ -48,7 +48,7 @@ const Password = () => {
                             </IonButtons>
                         </IonCol>
                         <IonCol size='8'>
-                            <IonTitle className='main-title ion-text-center'>{t('forgot.title')}</IonTitle>
+                            <h4 className='main-title ion-text-center ion-no-margin'>{t('forgot.title')}</h4>
                         </IonCol>
                         <IonCol size='2'>
 

@@ -23,7 +23,7 @@ const Notification = () => {
                             </IonButtons>
                         </IonCol>
                         <IonCol size='8'>
-                            <IonTitle className='main-title ion-text-center'>{t('system-info.title')}</IonTitle>
+                            <h4 className='main-title ion-text-center ion-no-margin'>{t('system-info.title')}</h4>
                         </IonCol>
                         <IonCol size='2'>
 

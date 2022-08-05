@@ -22,7 +22,7 @@ const TeamReport = () => {
                             </IonButtons>
                         </IonCol>
                         <IonCol size='8'>
-                            <IonTitle className='main-title ion-text-center'>{t('team-report.title')}</IonTitle>
+                            <h4 className='main-title ion-text-center ion-no-margin'>{t('team-report.title')}</h4>
                         </IonCol>
                         <IonCol size='2'>
 

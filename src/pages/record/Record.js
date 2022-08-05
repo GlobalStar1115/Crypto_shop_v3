@@ -19,7 +19,7 @@ const Record = () => {
 
                         </IonCol>
                         <IonCol size='8'>
-                            <IonTitle className='main-title ion-text-center'>{t('record.title')}</IonTitle>
+                            <h4 className='main-title ion-text-center ion-no-margin'>{t('record.title')}</h4>
                         </IonCol>
                         <IonCol size='2'>
                             <IonRouterLink routerLink="/app/home">

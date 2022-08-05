@@ -32,7 +32,7 @@ const Language = () => {
                             </IonButtons>
                         </IonCol>
                         <IonCol size='8'>
-                            <IonTitle className='main-title ion-text-center'>{t('language.title')}</IonTitle>
+                            <h4 className='main-title ion-text-center ion-no-margin'>{t('language.title')}</h4>
                         </IonCol>
                         <IonCol size='2'>
 

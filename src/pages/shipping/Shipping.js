@@ -48,7 +48,7 @@ const Shipping = () => {
                             </IonButtons>
                         </IonCol>
                         <IonCol size='8'>
-                            <IonTitle className='main-title ion-text-center'>{t('shipping.title')}</IonTitle>
+                            <h4 className='main-title ion-text-center ion-no-margin'>{t('shipping.title')}</h4>
                         </IonCol>
                         <IonCol size='2'>
 

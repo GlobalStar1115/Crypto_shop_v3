@@ -23,7 +23,7 @@ const AccountDetails = () => {
                             </IonButtons>
                         </IonCol>
                         <IonCol size='8'>
-                            <IonTitle className='main-title ion-text-center'>{t('account-details.title')}</IonTitle>
+                            <h4 className='main-title ion-text-center ion-no-margin'>{t('account-details.title')}</h4>
                         </IonCol>
                         <IonCol size='2'>
 

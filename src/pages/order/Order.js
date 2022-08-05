@@ -26,7 +26,7 @@ const Order = () => {
 
                         </IonCol>
                         <IonCol size='8'>
-                            <IonTitle className='main-title ion-text-center'>{t('order.title')}</IonTitle>
+                            <h4 className='main-title ion-text-center ion-no-margin'>{t('order.title')}</h4>
                         </IonCol>
                         <IonCol size='2'>
                             <IonRouterLink routerLink="/app/home">
