@@ -12,29 +12,28 @@ export default class CenterMode extends Component {
             infinite: true,
             slidesToShow: 1,
             centerPadding: "60px",
-            speed: 500,
             dots: true,
             autoplay: true,
-            speed: 1000,
-            autoplaySpeed: 2000,
+            speed: 1500,
+            autoplaySpeed: 3000,
         };
         return (
             <div className="slider-body">
                 <Slider {...settings}>
                     <div className="slider-item">
-                        <IonImg src="/assets/images/product/1.png" />
+                        <IonImg src="/assets/images/product/4.png" />
                     </div>
                     <div className="slider-item">
-                        <IonImg src="/assets/images/product/1.png" />
+                        <IonImg src="/assets/images/product/4.png" />
                     </div>
                     <div className="slider-item">
-                        <IonImg src="/assets/images/product/1.png" />
+                        <IonImg src="/assets/images/product/4.png" />
                     </div>
                     <div className="slider-item">
-                        <IonImg src="/assets/images/product/1.png" />
+                        <IonImg src="/assets/images/product/4.png" />
                     </div>
                     <div className="slider-item">
-                        <IonImg src="/assets/images/product/1.png" />
+                        <IonImg src="/assets/images/product/4.png" />
                     </div>
                 </Slider>
             </div>

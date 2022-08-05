@@ -145,16 +145,16 @@ ion-tab-button::part(native) {
 }
 
 .slick-slide {
-  transform: scale(0.85);
+  transform: scale(0.75);
   transition: all .25s ease-out;
 }
 
 .slick-slide.slick-active.slick-center.slick-current {
-  transform: scale(1);
+  transform: scale(1.1);
 }
 
 .slick-dots {
-  bottom: 10px !important;
+  bottom: 0px !important;
 }
 
 .slick-slider {
@@ -173,4 +173,8 @@ ion-tab-button::part(native) {
   height: 8px;
   top: 5px;
   border-radius: 10px;
+}
+
+.slick-list {
+  overflow: visible !important;
 }
